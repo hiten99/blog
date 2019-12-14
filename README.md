@@ -1,4 +1,6 @@
 This is a very basic Blog application with CRUD functionality.
+Each Post consists of title and content.
+You can create, edit, update and delete posts.
 
 
 Prerequisites:
@@ -8,15 +10,13 @@ Prerequisites:
 Blog for Ruby on Rails application
 
 Steps to install the application:
-Download and unzip or clone the repository.
-open command prompt in the code directory 
+1. Download and unzip or clone the repository.
+2. Open command prompt in the code directory 
 Run following commands:
-bundle install
-
-rails db:migrate
-rails db:seed
-rails db:migrate RAILS_ENV=test
-rails test
-
-rails s
-use the browser to visit the website: http://localhost:3000/posts/
+1. bundle install
+2. rails db:migrate
+3. rails db:seed
+4. rails db:migrate RAILS_ENV=test
+5. rails test
+6. rails s
+use the browser to visit the website and try out features: http://localhost:3000/posts/
