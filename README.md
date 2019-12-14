@@ -1,24 +1,22 @@
-# README
+This is a very basic Blog application with CRUD functionality.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+Prerequisites:
+- Ruby version 2.3.3
+- Rails version 5.1
 
-* Ruby version
+Blog for Ruby on Rails application
 
-* System dependencies
+Steps to install the application:
+Download and unzip or clone the repository.
+open command prompt in the code directory 
+Run following commands:
+bundle install
 
-* Configuration
+rails db:migrate
+rails db:seed
+rails db:migrate RAILS_ENV=test
+rails test
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+rails s
+use the browser to visit the website: http://localhost:3000/posts/
